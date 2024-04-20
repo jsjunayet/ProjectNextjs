@@ -1,8 +1,12 @@
+import Data from '../components/Data/Data';
 
-export default function Home() {
+
+const home = () => {
   return (
-    <div className="max-w-7xl mx-auto">
-      <h1>dashbord</h1>
+    <div className=' max-w-7xl mx-auto my-5'>
+      <Data></Data>
     </div>
   );
-}
+};
+
+export default home;
